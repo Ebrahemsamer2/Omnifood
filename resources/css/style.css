@@ -156,9 +156,6 @@ section.features .box p {
 /* End feature section */
 
 /* Start Fav Meals Section */
-section.fav-meals {
-
-}
 section.fav-meals .meals {
 	list-style: none;
 	width: 100%;
@@ -185,3 +182,59 @@ section.fav-meals .meals img:hover {
 	opacity: 1;
 }
 /* End Fav Meals Section */
+
+/* Start How it works Section */
+
+section.steps {
+	padding-top: 60px;
+	background-color: #f4f4f4;
+}
+section.steps h2{
+	font-weight: 300;
+	font-size: 180%;
+	text-align: center;
+}
+.steps h2:after {
+	height: 2px;
+	display: block;
+	margin: 0 auto;
+	background-color: #e67e22;
+	content: " ";
+	width: 100px;
+	margin: 0 auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+section.steps .app-screen {
+	width: 40%;
+	float: right;
+	margin-right: 50px;
+}
+
+section.steps .work-step {
+	margin-bottom: 60px;
+	margin-top: 50px;
+}
+section.steps .work-step div {
+	display: inline-block;
+	float: left;
+	width: 50px;
+	height: 50px;
+	padding: 10px;
+	padding-left: 17px;
+	font-size: 110%;
+	color: #e67e22;
+	border: 2px solid #e67e22;
+	border-radius: 50%;
+	margin-right: 30px;
+	font-weight: 300;
+}
+section.steps .work-step:last-of-type {
+	margin-bottom: 80px;
+}
+section.steps a img {
+	width: auto;
+	height: 50px;
+	margin-right: 20px;
+}
+/* End How it works Section */
