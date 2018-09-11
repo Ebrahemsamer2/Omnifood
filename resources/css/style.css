@@ -15,6 +15,10 @@ html {
 .clearfix {
 	clear: both;
 }
+.row {
+	max-width: 1140px;
+	margin: 0 auto 0 auto;
+}
 /* End Constants */
 
 /* Start Header */
@@ -24,10 +28,6 @@ header {
 	height: 100vh;
 	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) , url(imgs/hero.jpg);
 	background-size: cover;
-}
-header .row {
-	width: 80%;
-	margin: 0 auto;
 }
 header .row .logo {
 	margin-top: 10px;
@@ -59,7 +59,7 @@ header .row ul li a:hover{
 .hero {
 	position: absolute;
 	top: 50%;
-	left: 10%;
+	left: 8%;
 	color: #FFF
 }
 header h1 {
@@ -100,4 +100,88 @@ header .btn-gost:active {
 	border-color: #cf6d17;
 }
 
-/* End Header 
+/* End Header */
+
+/* Start feature section */
+
+section.features {
+	padding: 80px 0;
+}
+section.features h2 {
+	text-align: center;
+	font-weight: 300;
+	font-size: 180%;
+	word-spacing: 2px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+}
+section.features h2:after {
+	height: 2px;
+	display: block;
+	margin: 0 auto;
+	background-color: #e67e22;
+	content: " ";
+	width: 100px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+section.features p.long-copy {
+	width: 70%;
+	text-align: center;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+section.features .box i {
+	font-weight: 300;
+	font-size: 350%;
+	color: #e67e22;
+	text-align: center;
+	display: block;
+	margin: 10px auto;
+
+}
+section.features .box h3 {
+	font-size: 110%;
+	text-align: center;
+	margin-bottom: 15px;
+	font-weight: 300;
+}
+section.features .box p {
+	font-size: 90%;
+	line-height: 150%;
+
+}
+
+/* End feature section */
+
+/* Start Fav Meals Section */
+section.fav-meals {
+
+}
+section.fav-meals .meals {
+	list-style: none;
+	width: 100%;
+	margin: 0;
+}
+section.fav-meals .meals li {
+	float: left;
+	width: 25%;
+	display: block;
+}
+section.fav-meals .meals figure {
+	overflow: hidden;
+	background: #000;
+}
+section.fav-meals .meals figure img {
+	opacity: 0.7;
+	width: 100%;
+	height: auto;
+	transition: transform .3s, opacity .3s;
+	transform: scale(1.15);
+}
+section.fav-meals .meals img:hover {
+	transform: scale(1.03);
+	opacity: 1;
+}
+/* End Fav Meals Section */
