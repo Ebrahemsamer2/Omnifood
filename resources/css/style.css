@@ -107,7 +107,9 @@ header .btn-gost:active {
 section.features {
 	padding: 80px 0;
 }
-section.features h2 {
+section.features h2,
+section.steps h2,
+section.cities h2 {
 	text-align: center;
 	font-weight: 300;
 	font-size: 180%;
@@ -116,7 +118,9 @@ section.features h2 {
 	text-transform: uppercase;
 	margin-bottom: 30px;
 }
-section.features h2:after {
+section.features h2:after,
+.steps h2:after,
+section.cities h2:after {
 	height: 2px;
 	display: block;
 	margin: 0 auto;
@@ -188,6 +192,7 @@ section.fav-meals .meals img:hover {
 section.steps {
 	padding-top: 60px;
 	background-color: #f4f4f4;
+	padding-bottom: 50px;
 }
 section.steps h2{
 	font-weight: 300;
@@ -238,3 +243,44 @@ section.steps a img {
 	margin-right: 20px;
 }
 /* End How it works Section */
+
+/* Start Cities Section */
+
+section.cities {
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+section.cities img {
+	margin-bottom: 10px;
+	width: 100%;
+	height: auto;
+}
+section.cities h3 {
+	font-weight: 300;
+	font-size: 110%;
+	margin-bottom: 10px;
+}
+section.cities .city-feature {
+	margin-bottom: 3px;
+}
+section.cities .city-feature i {
+	margin-right: 15px;
+	color: #e67e22;
+	margin-left: 2px;
+}
+section.cities .city-feature a:link,
+section.cities .city-feature a:visited {
+	text-decoration: none;
+	color: #e67e22;
+	border-bottom: 1px solid #e67e22;
+	padding-bottom: 1px;
+	transition: color .3s, border-bottom .3s;
+}
+section.cities .city-feature a:hover,
+section.cities .city-feature a:active {
+	color: #555;
+	border-bottom: 1px solid transparent;
+}
+
+/* End Cities Section */
+
