@@ -28,6 +28,7 @@ header {
 	height: 100vh;
 	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) , url(imgs/hero.jpg);
 	background-size: cover;
+	background-attachment: fixed;
 }
 header .row .logo {
 	margin-top: 10px;
@@ -109,7 +110,8 @@ section.features {
 }
 section.features h2,
 section.steps h2,
-section.cities h2 {
+section.cities h2,
+.testimonials h2 {
 	text-align: center;
 	font-weight: 300;
 	font-size: 180%;
@@ -120,7 +122,8 @@ section.cities h2 {
 }
 section.features h2:after,
 .steps h2:after,
-section.cities h2:after {
+section.cities h2:after,
+.testimonials h2:after {
 	height: 2px;
 	display: block;
 	margin: 0 auto;
@@ -129,6 +132,7 @@ section.cities h2:after {
 	width: 100px;
 	margin: 0 auto;
 	margin-top: 30px;
+	margin-bottom: 50px;
 }
 section.features p.long-copy {
 	width: 70%;
@@ -284,3 +288,41 @@ section.cities .city-feature a:active {
 
 /* End Cities Section */
 
+/* Start Testimonials  Section */
+
+.testimonials {
+	margin-top: 60px;
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(imgs/back-customers.jpg);
+	background-size: cover;
+	color: #FFF;
+	background-attachment: fixed; 
+}
+.testimonials h2{
+	margin-top: 20px;
+	font-weight: 300;
+}
+.testimonials blockquote:before {
+	content: "\201c";
+	display: block;
+	font-weight: 300;
+	font-size: 400%;
+	margin-bottom: -15px; 
+}
+.testimonials blockquote {
+	font-style: italic;
+	line-height: 150%;
+}
+.testimonials cite{
+	display: block;
+	margin-top: 20px;
+	margin-left: 10px;
+	font-size: 90%;
+}
+.testimonials cite img {
+	border-radius: 50%;
+	height: 45px;
+	margin-right: 10px;
+	vertical-align: middle;
+}
+
+/* End Testimonials  Section */

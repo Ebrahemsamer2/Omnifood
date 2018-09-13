@@ -1,15 +1,7 @@
-var johnMass, ahmedMass, johnHeight, ahmedHeight;
 
-johnMass = 70;
-ahmedMass = 90;
-johnHeight = 190;
-ahmedHeight = 170;
+var yearsToRetired = function(age) {
+	var years = 60 - age;
 
-var johnBMI = johnMass / (johnHeight * johnHeight);
+	console.log(years);
+}
 
-var ahmedBMI = ahmedMass / (ahmedHeight * ahmedHeight);
-
-var johnisbig = johnBMI > ahmedBMI;
-
-
-console.log('John is big than ahmed ? ' + johnisbig);
