@@ -420,3 +420,74 @@ textarea {
 	cursor: pointer;
 }
 /* End Contact Form */
+
+/* Start Footer Section */
+
+footer {
+	margin-top: 50px;
+	background-color: #333;
+	padding: 10px;
+}
+footer .footer-nav {
+	float: left;
+}
+footer .social-links {
+	float: right;
+}
+footer .footer-nav ul,
+footer .social-links ul {
+	list-style: none;
+}
+footer .footer-nav ul li,
+footer .social-links ul li {
+	display: inline-block;
+	margin-right: 20px;
+}
+footer .social-links ul li{
+	font-size: 130%;
+}
+footer .footer-nav ul li {
+	font-size: 90%;
+}
+footer .footer-nav ul li a,
+footer .social-links ul li a {
+	color: #888;
+	text-decoration: none;
+	transition: color .3s;
+}
+footer .footer-nav ul li a:hover,
+footer .social-links ul li a:hover {
+	color: #ddd;
+}
+footer .footer-nav ul li:last-child,
+footer .social-links ul li:last-child {
+	margin-right: 0;
+}
+footer p {
+	text-align: center;
+	font-size: 90%;
+	font-weight: 300px;
+	color: #888;
+	margin:0;
+	padding:0;
+}
+.ion-logo-facebook,
+.ion-logo-twitter,
+.ion-logo-googleplus,
+.ion-logo-instagram {
+transition: color 0.3s;
+}
+.ion-logo-facebook:hover {
+	color:#3b5999;
+}
+.ion-logo-twitter:hover {
+	color: #55acee;
+}
+.ion-logo-googleplus:hover {
+	color: #dd4b39;
+}
+.ion-logo-instagram:hover {
+	color: #e4405f;
+}
+
+/* End Footer Section */
