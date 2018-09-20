@@ -171,7 +171,6 @@ section.features .box h3 {
 section.features .box p {
 	font-size: 90%;
 	line-height: 150%;
-
 }
 
 /* End feature section */
@@ -211,7 +210,7 @@ section.steps {
 	background-color: #f4f4f4;
 	padding-bottom: 50px;
 }
-section.steps h2{
+section.steps h2 {
 	font-weight: 300;
 	font-size: 180%;
 	text-align: center;
@@ -310,7 +309,7 @@ section.cities .city-feature a:active {
 	color: #FFF;
 	background-attachment: fixed; 
 }
-.testimonials h2{
+.testimonials h2 {
 	margin-top: 20px;
 	font-weight: 300;
 }
@@ -469,6 +468,7 @@ footer p {
 	font-weight: 300px;
 	color: #888;
 	margin:0;
+	margin-top: 10px;
 	padding:0;
 }
 .ion-logo-facebook,

@@ -1,0 +1,179 @@
+/* devices from 1023px to 1200px */
+@media only screen and (max-width: 1200px) {
+	.row {
+		padding: 0 2%;
+	}
+
+}
+
+/* devices from 767px to 1023px */
+@media only screen and (max-width: 1023px) {
+	header .row ul li a{
+		font-size: 75%;
+	}
+	header h1 {
+		font-size: 150%;
+	}
+	.features h2,
+	section.steps h2,
+	section.cities h2,
+	section.testimonials h2,
+	section.plans h2,
+	.contact h2 {
+		font-size: 140%;
+	}
+	section.features .box i {
+		font-size: 300%;
+	}
+	h3 {
+		font-size: 90%;
+	}
+	section.features .box p {
+		font-size: 80%;
+		line-height: 150%;
+	}
+	section.features p.long-copy {
+		width: 80%;
+	}
+	section.steps .app-screen {
+		width: 50%;
+		float: right;
+		margin-right: 50px;
+	}
+	section.steps .work-step {
+		margin-bottom: 40px;
+		margin-top: 40px;
+		font-size: 90%;
+	}
+	section.steps a img {
+		width: auto;
+		height: 40px;
+		margin-right: 20px;
+	}
+	section.cities h3 {
+		font-size: 100%;
+		margin-bottom: 10px;
+	}
+	section.cities .city-feature {
+		margin-bottom: 3px;
+		font-size: 85%;
+	}
+	section.cities .city-feature i {
+		margin-right: 5px;
+		margin-left: 2px;
+	}
+	/* Plans */
+	.plans .plan div p.plan-price {
+		font-size: 250%;
+	}
+	.plans .plan div p.plan-price-meal {
+		font-size: 70%;
+	}
+	.plans .plan ul li {
+		margin-bottom: 7px;
+		font-size: 75%;
+	}
+	.plans .btn-full {
+		margin-right: 10px;
+	}
+	/* Plans */
+
+	/* Contact Form */
+	.contact form {
+		width: 80%;
+		margin-left: 10%;
+	}
+	/* Contact Form*/
+
+	/* Footer */
+	footer .footer-nav ul li {
+		font-size: 75%;
+	}
+	footer .social-links ul li{
+		font-size: 110%;
+	}
+	footer p {
+		font-size: 80%;
+	}
+	/* Footer */
+}
+
+/* devices from 480px to 767px */
+@media only screen and (max-width: 767px) {
+	body,
+	html {
+		overflow-x: hidden;
+	}
+	.col {
+		width: 100%;
+	}
+	header .row ul {
+		display: none;
+	}
+	header h1 {
+		font-size: 130%;
+	}
+	.features h2,
+	section.steps h2,
+	section.cities h2,
+	section.testimonials h2,
+	section.plans h2,
+	.contact h2 {
+		font-size: 120%;
+	}
+	section.features .box i {
+		font-size: 250%;
+	}
+	h3 {
+		font-size: 70%;
+	}
+	section.features p.long-copy {
+		width: 90%;
+	}
+	section.features .box p {
+		font-size: 70%;
+		line-height: 140%;
+	}
+	section.steps .app-screen {
+		width: 50%;
+		margin-right: 25%;
+	}
+
+	input[type="text"],
+	input[type="email"],
+	input[type="checkbox"],
+	select {
+		margin-bottom: 20px;
+	}
+	.contact form {
+		width: 90%;
+	}
+}
+
+/* devices from 0px to 480px */
+@media only screen and (max-width: 480px) {
+	header h1 {
+		font-size: 100%;
+	}
+	header a.btn-full,
+	header a.btn-gost {
+		width: 130px;
+		font-size: 70%;
+	}
+	header a.btn-gost {
+		width: 160px;
+		margin-top: 10px;
+	}
+	h2{
+		font-size: 100%;
+	}
+	section.steps,
+	.features ,
+	section.steps,
+	section.cities,
+	section.testimonials,
+	section.plans {
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+}
