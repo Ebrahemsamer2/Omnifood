@@ -77,4 +77,20 @@ $('a[href*="#"]')
 	},{
 		offset: "50%;"
 	});
+
+
+
+	// Sticky Navigation Icons
+
+	$('.ion-md-menu').click(function() {
+		$('header .row ul').slideToggle(300);
+		var icon = $('.mobile-nav-icon i');
+		if( icon.hasClass('ion-md-close-circle')) {
+			icon.removeClass('ion-md-close-circle');
+			icon.addClass('ion-md-menu');
+		}else {
+			icon.addClass('ion-md-close-circle');
+			icon.removeClass('ion-md-menu');
+		}
+	});
 });

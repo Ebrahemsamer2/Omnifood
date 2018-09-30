@@ -109,7 +109,52 @@
 	}
 	header .row ul {
 		display: none;
+		float:left;
 	}
+	header .row ul li {
+		display: block;
+		margin-top: 15px; 
+	}
+	header .row ul li a:visited,
+	header .row ul li a:link{
+		border: 0;
+	}
+	.ion-md-menu,
+	.ion-md-close-circle {
+		display: block;
+		margin-top: 17px;
+	}
+
+/* Start Sticky*/
+.sticky .ion-md-menu,
+.sticky .ion-md-close-circle {
+	color: #555;
+	margin-top: 8px;
+}
+.sticky .row ul li {
+	display: block;
+	margin-top: 15px;
+	margin-left: 25px;
+}
+.sticky .row ul li a{
+	font-size: 80%;
+	border-bottom: 2px solid transparent;
+	transition: border-bottom .3s;
+	padding-bottom: 12px;
+}
+.sticky .row .logo { display: none; }
+.sticky .row ul li a:hover{
+	color: #555;
+}
+
+.sticky .row .logo-black {
+	display: block;
+	width: 50px;
+	height: 50px;
+	margin-top: 2px;
+}
+/* End Sticky */
+
 	header h1 {
 		font-size: 130%;
 	}
