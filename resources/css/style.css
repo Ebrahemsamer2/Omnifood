@@ -1,4 +1,4 @@
-/* Start Constants */
+ /* Start Constants */
 * {
 	padding: 0;
 	margin: 0;
@@ -49,8 +49,6 @@ h3 {
 }
 /* End Constants */
 
-/* Start Header */
-
 header {
 	width: 100%;
 	height: 100vh;
@@ -58,10 +56,15 @@ header {
 	background-size: cover;
 	background-attachment: fixed;
 }
-header .row .logo {
+header .row .logo,
+.sticky .row .logo-black {
 	margin-top: 10px;
 	float: left;
 }
+header .row .logo-black {
+	display: none;
+}
+
 header .row ul {
 	float: right;
 	list-style: none;
@@ -128,6 +131,50 @@ header h1 {
 	color: #FFF;
 	border-color: #cf6d17;
 }
+
+
+	/* Sticky Header */
+
+.sticky {
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: rgba(255,255,255,.98);
+	width: 100%;
+	z-index: 9999;
+}
+/**/
+.sticky {
+	box-shadow: 0 2px 2px #efefef;
+}
+.sticky .row ul li {
+	display: inline-block;
+	margin-top: 15px;
+	margin-left: 25px;
+}
+.sticky .row ul li a{
+	color: #555;
+	font-weight: 300;
+	font-size: 90%;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-bottom: 2px solid transparent;
+	transition: border-bottom .3s;
+	padding-bottom: 12px;
+}
+.sticky .row .logo { display: none; }
+.sticky .row ul li a:hover{
+	color: #555;
+}
+
+.sticky .row .logo-black {
+	display: block;
+	width: 50px;
+	height: 50px;
+	margin-top: 2px;
+}
+/**/
+
 
 /* End Header */
 
@@ -490,4 +537,4 @@ transition: color 0.3s;
 	color: #e4405f;
 }
 
-/* End Footer Section */
+/* End Footer Section 
