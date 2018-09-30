@@ -538,3 +538,19 @@ transition: color 0.3s;
 }
 
 /* End Footer Section 
+
+
+/* Start Jquery Styles */
+
+.js-features .row div,
+.cities .row .col,
+.steps .row .col img{
+	opacity: 0;
+}
+.js-features .row div.animated,
+.cities .row .col.animated,
+.steps .row .col img.animated {
+	opacity: 1;
+}
+
+/* End JQuery Styles */

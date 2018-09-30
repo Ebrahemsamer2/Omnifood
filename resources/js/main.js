@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-	/* Adding sticky navigation */
+/* --------------- Adding sticky navigation -------------- */
 	$('.js-features').waypoint(function(direction) {
 
 		if(direction == 'down'){
@@ -13,8 +13,8 @@ $(document).ready(function() {
 		offset: "60px ;"
 	});
 
-	/* Scrolling Effects  */
-		// buttosn 
+/* -------------- Scrolling Effects ----------------- */
+
 	// Select all links with hashes
 $('a[href*="#"]')
   // Remove links that don't actually link to anything
@@ -50,4 +50,31 @@ $('a[href*="#"]')
       }
     }
   });
+
+
+/* --------------------- Animation on scrolling ---------------- */
+
+	$('.js-features .row div').waypoint(function(direction) {
+		$('.js-features .row div').addClass('animated fadeIn');
+	},{
+		offset: "50%;"
+	});
+
+	$('.steps .row .col').waypoint(function(direction) {
+		$('.steps .row .col img').addClass('animated fadeInUp');
+	},{
+		offset: "50%;"
+	});
+
+	$('.cities .row .col').waypoint(function(direction) {
+		$('.cities .row .col').addClass('animated fadeIn');
+	},{
+		offset: "50%;"
+	});
+
+	$('.plans .row .col:first-of-type').waypoint(function(direction) {
+		$('.plans .row .col:first-of-type').addClass('animated pulse');
+	},{
+		offset: "50%;"
+	});
 });
