@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<!-- Some meta tags for SEO and Responsive-->
+	<meta charset="utf-8">
+	<meta name="description" content="Omnifood is a premium food delivery service with the mission to bring 
+	affordable and healthy meals to as many people as possible." >
+	<meta name="viewport" content="width=device-width, initial-scale = 1.0" >
+
+
+	<!-- CSS Links  -->
 	<link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
 	<link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
@@ -10,6 +18,7 @@
 	<link rel="stylesheet" type="text/css" href="resources/css/media-style.css">
 	<title>Omnifood</title>
 
+	<!-- Fav Icons -->
 	<link rel="apple-touch-icon" sizes="180x180" href="resources/favicons/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="resources/favicons/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="resources/favicons/favicon-16x16.png">
@@ -38,8 +47,8 @@
 		</nav>
 		<div class="hero">
 			<h1>Goodbye junk food.<br>Hello super healthy meals.</h1>
-			<a class="btn btn-full plans-button" href="#">I'm hungry</a>
-			<a class="btn btn-gost start-button" href="#">Show me more</a>
+			<a class="btn btn-full plans-button" href="#plans">I'm hungry</a>
+			<a class="btn btn-gost start-button" href="#features">Show me more</a>
 		</div>
 	</header>
 	<section class="features js-features" id="features">
@@ -152,7 +161,7 @@
 		</div>
 		<div class="row">
 			<div class="col span-1-of-4">
-				<img src="resources/imgs/lisbon-3.jpg">
+				<img src="resources/imgs/lisbon-3.jpg" alt="lisbon">
 				<h3>Lisbon</h3>
 				<div class="city-feature">
 					<i class="ion-ios-person"></i>
@@ -168,7 +177,7 @@
 				</div>				
 			</div>
 			<div class="col span-1-of-4">
-				<img src="resources/imgs/san-francisco.jpg">
+				<img src="resources/imgs/san-francisco.jpg" alt="San-francisco">
 				<h3>San Francisco</h3>
 				<div class="city-feature">
 					<i class="ion-ios-person"></i>
@@ -184,7 +193,7 @@
 				</div>				
 			</div>
 			<div class="col span-1-of-4">
-				<img src="resources/imgs/berlin.jpg">
+				<img src="resources/imgs/berlin.jpg" alt="Berlin">
 				<h3>Berlin</h3>
 				<div class="city-feature">
 					<i class="ion-ios-person"></i>
@@ -200,7 +209,7 @@
 				</div>				
 			</div>
 			<div class="col span-1-of-4">
-				<img src="resources/imgs/london.jpg">
+				<img src="resources/imgs/london.jpg" alt="London">
 				<h3>London</h3>
 				<div class="city-feature">
 					<i class="ion-ios-person"></i>
@@ -226,19 +235,19 @@
 				<blockquote>
 					Omnifood is just awesome! I just launched a startup which leaves me with no time for cooking, so Omnifood is a life-saver. Now that I got used to it, I couldn't live without my daily meals!
 				</blockquote>
-				<cite><img src="resources/imgs/customer-1.jpg"> Alberto Duncan</cite>
+				<cite><img src="resources/imgs/customer-1.jpg" alt="Customer-1"> Alberto Duncan</cite>
 			</div>
 			<div class="col span-1-of-3">
 				<blockquote>
 					Inexpensive, healthy and great-tasting meals, delivered right to my home. We have lots of food delivery here in Lisbon, but no one comes even close to Omifood. Me and my family are so in love!
 				</blockquote>
-				<cite><img src="resources/imgs/customer-2.jpg"> Joana Silva</cite>
+				<cite><img src="resources/imgs/customer-2.jpg" alt="Customer-2"> Joana Silva</cite>
 			</div>
 			<div class="col span-1-of-3">
 				<blockquote>
 					I was looking for a quick and easy food delivery service in San Franciso. I tried a lot of them and ended up with Omnifood. Best food delivery service in the Bay Area. Keep up the great work!
 				</blockquote>
-				<cite><img src="resources/imgs/customer-3.jpg"> Milton Chapman</cite>
+				<cite><img src="resources/imgs/customer-3.jpg" alt="Customer 3"> Milton Chapman</cite>
 			</div>
 		</div>
 	</section>
@@ -360,7 +369,7 @@
 						<label for="message">Drop us a line</label>
 					</div>
 					<div class="col span-2-of-3">
-						<textarea placeholder="Your message . . . " name="message"></textarea>
+						<textarea id="message" placeholder="Your message . . . " name="message"></textarea>
 					</div>	
 				</div>
 				<div class="row">
@@ -402,9 +411,9 @@
 			<p>Copyright &copy; at 2018 By Omnifood. All rights reserved.</p>
 		</div>
 	</footer>
-<script type="text/javascript" src="vendors/js/jquery.js"></script>
-<script type="text/javascript" src="vendors/js/popper.min.js"></script>
-<script type="text/javascript" src="vendors/js/jquery.waypoints.min.js"></script>
-<script type="text/javascript" src="resources/js/main.js"></script>
+<script src="vendors/js/jquery.js"></script>
+<script src="vendors/js/popper.min.js"></script>
+<script src="vendors/js/jquery.waypoints.min.js"></script>
+<script src="resources/js/main.js"></script>
 </body>
 </html>
