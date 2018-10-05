@@ -193,6 +193,24 @@
 	.contact form {
 		width: 90%;
 	}
+
+	.map {
+		width: 100%;
+		height: 300px;
+		position: relative;
+		z-index: 0;
+	}
+	.map-box {
+		width: 100%;
+		height: auto;
+		position: relative;
+	}
+	.form-box {
+		height: auto;
+		width: 100%;
+		position: relative;
+		background-color: rgba(255,255,255,.8);
+	}
 }
 
 /* devices from 0px to 480px */

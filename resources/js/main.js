@@ -94,3 +94,20 @@ $('a[href*="#"]')
 		}
 	});
 });
+
+/* Adding Map */
+var map = new GMaps({
+  div: '.map',
+  lat: 31.0334848,
+  lng: 30.4377182,
+  zoom:12
+});
+
+map.addMarker({
+  lat: 31.0334848,
+  lng: 30.4377182,
+  title: 'Damanhour',
+  click: function(e) {
+    alert('You clicked in this marker');
+  }
+});
